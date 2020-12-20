@@ -1,0 +1,39 @@
+{
+  "name": "codesandbox-express-api-template",
+  "version": "1.0.0",
+  "description": "A CodeSandbox Template for making Express APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js", 
+    "production": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samyakbambole/codesandbox-express-api-template.git"
+  },
+  "keywords": [
+    "Express",
+    "Nedb",
+    "Consola",
+    "Chalk",
+    "API",
+    "Http",
+    "Server",
+    "CodeSandbox"
+  ],
+  "author": "Samyak Bambole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samyakbambole/codesandbox-express-api-template/issues"
+  },
+  "homepage": "https://github.com/samyakbambole/codesandbox-express-api-template#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "consola": "^2.15.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
